@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "worldscreen",
+  "version": "${version}",
+  "name": "WorldScreen",
+  "description": "A placeable in-world web screen for Minecraft. Browser integration is under development.",
+  "authors": ["WorldScreen contributors"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.macky.worldscreen.WorldScreenMod"],
+    "client": ["com.macky.worldscreen.WorldScreenClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
